@@ -1,16 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "dracosm",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Dragon Wings Cosmetics",
+  "description": "This is a cosmetic mods that adds nothing else than a pair of dragon wings!",
   "authors": [
-    "Me!"
+    "ThatsNotLiam1337"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://fabricmc.net/"
   },
 
   "license": "CC0-1.0",
@@ -19,18 +18,17 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.pm.dragoncosmetics.Main"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "dracosm.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.17.x",
-    "java": ">=16"
+    "minecraft": "1.16.x"
   },
   "suggests": {
     "another-mod": "*"
