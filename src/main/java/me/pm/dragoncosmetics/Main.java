@@ -8,7 +8,11 @@ import java.util.List;
 
 public class Main implements ModInitializer {
 
-    public static String MOD_ID = "DRACOSM";
+    /*
+    * Author: ThatsNotLiam1337
+    * */
+
+    public static String MOD_ID = "dracosm";
 
     public static List<String> wing_users = new ArrayList<>();
 
